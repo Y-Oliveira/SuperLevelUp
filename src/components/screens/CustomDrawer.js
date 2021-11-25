@@ -26,7 +26,7 @@ const CustomDrawer = (props) => {
               borderRadius: 40,
               marginBottom: 10,
             }}
-          />
+          /> 
           <Text
             style={{
               color: "#ffffff",

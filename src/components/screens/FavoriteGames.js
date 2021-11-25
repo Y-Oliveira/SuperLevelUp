@@ -16,7 +16,7 @@ const FavoriteGames= () => {
         <Text>Favoritos</Text>    
     </View>
 
-
+ 
     )
 }
 

@@ -15,7 +15,7 @@ const Wishlist= () => {
               />
         <Text>Wishlist</Text>    
     </View>
-
+ 
 
     )
 }

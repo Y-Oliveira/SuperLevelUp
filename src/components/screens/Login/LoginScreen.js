@@ -21,7 +21,7 @@ const LoginScreen = (navigation, route) => {
         />
       </TouchableOpacity>
 
-      <Text>Oi</Text>
+      <Text>primeira página</Text>
     </View>
   );
 };

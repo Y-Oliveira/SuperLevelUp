@@ -17,7 +17,7 @@ const Checklists= () => {
     </View>
 
 
-    )
+    ) 
 }
 
 export default Checklists;

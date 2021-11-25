@@ -49,7 +49,7 @@ const AuthStack = () => {
                 drawerIcon:({color})=>
                 (
                     <Ionicons name="cloudy-night-outline" size={24} color={color} />
-                )}}/>
+                )}}/> 
         </Drawer.Navigator>
 
 
