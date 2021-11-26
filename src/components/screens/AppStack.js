@@ -28,7 +28,7 @@ const AuthStack = () => {
             <Drawer.Screen name="Home" component={LoginScreen} options={{
                 drawerIcon:({color})=>
                 (
-                <Ionicons name="home-outline" size={24} color={color}/>
+                <Ionicons  name="home-outline" size={24} color={color}/>
                 )}}/>
             <Drawer.Screen name="Profile" component={Profile}options={{
                 drawerIcon:({color})=>
