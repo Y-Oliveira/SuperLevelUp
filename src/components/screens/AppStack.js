@@ -21,7 +21,6 @@ const AuthStack = () => {
         <Drawer.Navigator drawerContent={props => <CustomDrawer {...props}/>} 
         screenOptions={{
             headerShown: false,
-            drawerActiveBackgroundColor:'#509BF5',
             drawerActiveTintColor:'#ffffff',
             drawerInactiveTintColor:'#333333',
             }}>
@@ -29,27 +28,32 @@ const AuthStack = () => {
                 drawerIcon:({color})=>
                 (
                 <Ionicons  name="home-outline" size={24} color={color}/>
-                )}}/>
+                ),
+                drawerActiveBackgroundColor:'#509BF590'}}/>
             <Drawer.Screen name="Profile" component={Profile}options={{
                 drawerIcon:({color})=>
                 (
                 <Ionicons name="person-outline" size={24} color={color}/>
-                )}}/>
+                ),
+                drawerActiveBackgroundColor:'#E6127C90'}}/>
             <Drawer.Screen name="Favorite Games" component={FavoriteGames}options={{
                 drawerIcon:({color})=>
                 (
                 <Ionicons name="star-outline" size={24} color={color}/>
-                )}}/>
+                ),
+                drawerActiveBackgroundColor:'#DFB40060'}}/>
             <Drawer.Screen name="Checklists" component={Checklists}options={{
                 drawerIcon:({color})=>
                 (
                 <Ionicons name="checkmark-outline" size={24} color={color}/>
-                )}}/>
+                ),
+                drawerActiveBackgroundColor:'#00D68E90'}}/>
             <Drawer.Screen name="Wishlist" component={Wishlist}options={{
                 drawerIcon:({color})=>
                 (
                     <Ionicons name="cloudy-night-outline" size={24} color={color} />
-                )}}/> 
+                ),
+                drawerActiveBackgroundColor:'#45119F90'}}/> 
         </Drawer.Navigator>
 
 
